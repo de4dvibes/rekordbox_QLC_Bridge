@@ -1,0 +1,41 @@
+# --- Python temporäre Dateien ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- PyCharm / IntelliJ spezifisch ---
+.idea/
+*.iml
+.pytest_cache/
+
+# --- Virtuelle Umgebungen (Virtual Environments) ---
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --- PyInstaller spezifisch ---
+# Wir ignorieren den temporären Build-Ordner, aber BEHALTEN die .spec-Datei,
+# da sie deine Kompilier-Einstellungen speichert.
+build/
+dist/
